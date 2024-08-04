@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">ImageSearch</string>
+
+    <!--Main Activity -->
+    <string name="tab_item1"> 이미지 검색</string>
+    <string name="tab_item2"> 보관함</string>
+    <string-array name="tab">
+        <item>이미지 검색</item>
+        <item>보관함</item>
+    </string-array>
+
+
+    <!-- Search Fragment -->
+    <string name="et_hint">검색어를 입력하세요</string>
+    <string name="btn_text">검색</string>
+
+
 </resources>
