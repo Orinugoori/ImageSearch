@@ -1,11 +1,12 @@
-package com.example.imagesearch
+package com.example.imagesearch.presentation
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.imagesearch.adapter.ViewPagerAdapter
+import com.example.imagesearch.R
+import com.example.imagesearch.presentation.adapter.ViewPagerAdapter
 import com.example.imagesearch.databinding.ActivityMainBinding
 import com.google.android.material.tabs.TabLayoutMediator
 

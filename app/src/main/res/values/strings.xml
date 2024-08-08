@@ -14,5 +14,7 @@
     <string name="et_hint">검색어를 입력하세요</string>
     <string name="btn_text">검색</string>
 
+    <!-- Shared Preference -->
+    <string name="preference_key">search_file_key</string>
 
 </resources>

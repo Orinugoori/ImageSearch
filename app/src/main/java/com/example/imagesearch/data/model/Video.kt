@@ -1,8 +1,7 @@
-package com.example.imagesearch.data
+package com.example.imagesearch.data.model
 
 import com.google.gson.annotations.SerializedName
 
-data class Video(val response : VideoResponse)
 
 data class VideoResponse(
     @SerializedName("meta")

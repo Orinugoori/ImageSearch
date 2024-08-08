@@ -1,14 +1,12 @@
-package com.example.imagesearch.data
+package com.example.imagesearch.data.model
 
 import com.google.gson.annotations.SerializedName
-
-data class Image(val response : ImageResponse)
 
 data class ImageResponse(
     @SerializedName("meta")
     val meta : ImageMeta,
     @SerializedName("documents")
-    val document : ImageDocument
+    val documents : List<ImageDocument>?
 )
 
 data class ImageMeta(

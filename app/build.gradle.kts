@@ -40,8 +40,7 @@ android {
 }
 
 dependencies {
-    implementation("androidx.viewpager2:viewpager2:1.1.0")
-
+    implementation(libs.androidx.viewpager2)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
@@ -56,4 +55,11 @@ dependencies {
     implementation(libs.retrofit.gson)
     implementation(libs.okhttp)
     implementation(libs.logging.interceptor)
+
+    implementation(libs.lifecycle.viewmodel)
+    implementation(libs.lifecycle.livedata)
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.androidx.fragment.ktx)
+    implementation(libs.glide)
+
 }
